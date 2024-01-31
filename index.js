@@ -6,7 +6,7 @@
 
 const io=require('socket.io')(8800,{
     cors:{
-        origin: "http://localhost:5173"
+        origin: "https://movix-frontend-6gg1.vercel.app"
     }
 })
 
